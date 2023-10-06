@@ -1,11 +1,11 @@
 # KGConv
 
-KGConv is a large corpus of 71k English conversations where each question-answer pair is grounded in a Wikidata fact.
-Conversations contain on average 8.6 questions and each question is provided in several variants.
+KGConv is a large corpus of 71k English conversations where each question-answer pair is grounded in a Wikidata fact. Conversations contain on average 8.6 questions and each question is provided in several variants.
 
 For a more complete description, see Q. Brabant, L. Rojas-Barahona, G. Lecorvé, C. Gardent. [KGConv, a Conversational Corpus grounded in Wikidata](https://arxiv.org/abs/2308.15298), 2023.
 
-## How the data is structured
+## How the data is structured
+
 
 ```
 /data
@@ -89,4 +89,4 @@ Our data include parts of the following datasets:
 
 ## License
 
-This corpus is distributed under CC-BY-4.0 license. See ``copyright_notice.txt'' for more details.
+This corpus is distributed under CC-BY-4.0 license. See copyright_notice.txt for more details.
