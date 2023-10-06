@@ -23,7 +23,7 @@ For a more complete description, see Q. Brabant, L. Rojas-Barahona, G. Lecorvé,
 	└── test
 ```
 
-To see complete_version and simple_verison folders, you have to unzip the corresponding files in /data. The data is available in two versions, "complete" and "simple". The simple version might be easier to handle (I'm not 100% confident about that, tho); the complete version contain more details, such as the ID of the template used for each question. Each train, dev or test folder contains several json files. Each file corresponds to a theme and is structured as follows:
+To see complete_version and simple_verison folders, you have to unzip the corresponding files in /data. The data is available in two versions, "complete" and "simple". The simple version is supposed to be easier to handle (I'm not 100% confident about that, tho); the complete version contain more details, such as the ID of the template used for each question. Each train, dev or test folder contains several json files. Each file corresponds to a theme and is structured as follows:
 
 
 In the complete version:
