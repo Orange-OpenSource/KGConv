@@ -1,0 +1,15 @@
+Software Name : KGConv
+
+Version: 1.0
+
+SPDX-FileCopyrightText: Copyright (c) 2023 Orange SA
+
+SPDX-License-Identifier: CC-BY-4.0 
+
+This software is distributed under the Creative Commons Attribution 4.0 International,
+the text of which is available at https://spdx.org/licenses/CC-BY-4.0.html
+or see the "license.txt" file for more details.
+
+Author: Quentin Brabant, Lina Maria Rojas-Barahona, Gwénolé Lecorvé, Claire Gardent
+
+Software description: Dataset of artificially generated question-answer conversations. Each question is about a given Wikidata triple and is provided in several versions. The data includes dictionaries linking Wikidata identifiers to the corresponding labels, and the templates that were used to generate the questions in the dialogues.

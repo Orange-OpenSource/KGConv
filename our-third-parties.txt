@@ -1,0 +1,7 @@
+Our data include parts of the following third party datasets:
+	
+	1) simple_question_v2 (license: is CC BY 3.0)
+	
+	2) the zero-shot dataset (no license explicitely stated; described by its authors as "publicly available")
+	
+	3) Wikidata (license: CC 1.0 https://creativecommons.org/publicdomain/zero/1.0/)
