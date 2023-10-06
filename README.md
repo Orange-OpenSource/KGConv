@@ -1,14 +1,14 @@
 # KGConv
 
-KGConv is a large corpus of 71k English conversations where each question-answer pair is grounded in a Wikidata fact.
-Conversations contain on average 8.6 questions and each question is provided in several variants.
+KGConv is a large corpus of 71k English conversations where each question-answer pair is grounded in a Wikidata fact. Conversations contain on average 8.6 questions and each question is provided in several variants.
 
 For a more complete description, see Q. Brabant, L. Rojas-Barahona, G. Lecorvé, C. Gardent. [KGConv, a Conversational Corpus grounded in Wikidata](https://arxiv.org/abs/2308.15298), 2023.
 
+## How the data is structured
 
-## How the data is structured
 
-data
+```
+/data
 ├── labels.json
 ├── preferred_labels.json
 ├── root_neightbourhoods.json
@@ -21,13 +21,15 @@ data
 	├── train
 	├── dev
 	└── test
+```
 
-The data is available in two versions, "complete" and "simple". The simple version might be easier to handle (I'm not 100% confident about that, tho); the complete version contain more details, such as the ID of the template used for each question. Each train, dev or test folder contains several json files. Each file corresponds to a theme and is structured as follows:
+To see complete_version and simple_verison folders, you have to unzip the corresponding files in /data. The data is available in two versions, "complete" and "simple". The simple version is supposed to be easier to handle (I'm not 100% confident about that, tho); the complete version contain more details, such as the ID of the template used for each question. Each train, dev or test folder contains several json files. Each file corresponds to a theme and is structured as follows:
 
 
 In the complete version:
 
-```{
+```
+{
 	# each dialogue id is associated to a list of questions and answer
 	"3445" : [
 		{
@@ -42,11 +44,13 @@ In the complete version:
 		{...}, # second question and answer
 		...
 	]
-}```
+}
+```
 
 In the simple version:
 
-```{
+```
+{
 	# each dialogue id is associated to a list of questions and answer
 	"3445" : [
 		{
@@ -60,7 +64,8 @@ In the simple version:
 		{...}, # second question and answer
 		...
 	]
-}```
+}
+```
 
 Other files in the data folder:
 * labels.json contains the labels associated to each (entity or property) identifier appearing in the conversations
@@ -84,4 +89,4 @@ Our data include parts of the following datasets:
 
 ## License
 
-This corpus is distributed under CC-BY-4.0 license. See ``copyright_notice.txt'' for more details.
+This corpus is distributed under CC-BY-4.0 license. See copyright_notice.txt for more details.
